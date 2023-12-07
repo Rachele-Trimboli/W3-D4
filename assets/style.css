@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+body{
+    background-color: rgb(255, 253, 227);
+    margin: 0px;
+}
+
+header{
+    font-family:"Rubik Bubbles" ;
+    text-align: center;
+    height: 10em;
+    margin-top: 0px;
+    background-color:rgb(194, 16, 16);
+    color: white;
+}
+header > h1{
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 100px;
+}
+main{
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: inline-block;
+
+
+}
+#numberSection{
+    display: inline-block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.celle{
+    border: 3px solid rgb(194, 16, 16);
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+
+}
+h2{
+    text-align: center;
+    color: red;
+}
+button{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(207, 232, 169);
+    border: 3px solid rgb(194, 16, 16);
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    box-shadow: -4px 6px 35px 7px #FFFFFF;
+    
+}
+#extracted{
+    display: inline-block;
+    margin-left: 100px;
+    font-family: "Rubik Bubbles";
+    font-size: 80px;
+    color: rgb(194, 16, 16);
+
+
+
+}
+#extractionSection{
+    /* background-color: rgb(92, 131, 116); */
+    display: inline-block;
+    margin-left: 70%;
+
+}
+.extractedCell{
+    background-color: rgb(49, 170, 117);
+}
+footer{
+    background-color: rgb(207, 232, 169);
+    width: 100%;
+    height: 10em;
+}
+
